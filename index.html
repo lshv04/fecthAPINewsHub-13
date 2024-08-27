@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Document</title>
@@ -11,23 +12,150 @@
 </head>
 
 <body>
-    <main class="container-fluid  g-0 ">
+    <main class="container-fluid  g-0  ">
 
-        <div class="row g-0 ">
-            <div class="image-container ">
-                <img src="premium_photo-1670249419932-a7027d9003f8.avif" alt="Descrição da Imagem" class="img-fluid"
-                    style="width: 100%; height: 100%; object-fit: cover;">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+            <div class="container-fluid">
+              <a class="navbar-brand " href="#">Offcanvas navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+              
+              </div>
             </div>
-            <div class="col-12  headline " id="newsContainer">
+          </nav>
 
 
+        <nav class="navcategoria " id="navhid">
+            <div class="nav nav-pills justify-content-center gap-2" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav1-tab" data-bs-toggle="tab" data-bs-target="#nav1" type="button"
+                    role="tab" aria-controls="nav1" aria-selected="true"><span class="span1">Negócios </span>
+                    <i class="bi bi-currency-dollar"></i></button>
+                <button class="nav-link" id="nav2-tab" data-bs-toggle="tab" data-bs-target="#nav2" type="button"
+                    role="tab" aria-controls="nav2" aria-selected="false"><span class="span1">Entretenimento </span>
+                    <i class="bi bi-emoji-laughing"></i></button>
+                <button class="nav-link" id="nav3-tab" data-bs-toggle="tab" data-bs-target="#nav3" type="button"
+                    role="tab" aria-controls="nav3" aria-selected="false"><span class="span1">Geral </span>
+                    <i class="bi bi-globe"></i></button>
+                <button class="nav-link" id="nav4-tab" data-bs-toggle="tab" data-bs-target="#nav4" type="button"
+                    role="tab" aria-controls="nav4" aria-selected="false"><span class="span1">Saúde </span>
+                    <i class="bi bi-bandaid"></i></button>
+                <button class="nav-link" id="nav5-tab" data-bs-toggle="tab" data-bs-target="#nav5" type="button"
+                    role="tab" aria-controls="nav5" aria-selected="false"><span class="span1">Ciência
+                    </span>
+                    <i class="bi bi-gear-wide-connected"></i></button>
+                <button class="nav-link" id="nav6-tab" data-bs-toggle="tab" data-bs-target="#nav6" type="button"
+                    role="tab" aria-controls="nav6" aria-selected="false"><span class="span1">Esportes </span>
+                    <i class="bi bi-trophy"></i></button>
+                <button class="nav-link" id="nav7-tab" data-bs-toggle="tab" data-bs-target="#nav7" type="button"
+                    role="tab" aria-controls="nav7" aria-selected="false"><span class="span1">Tecnologia </span>
+                    <i class="bi bi-laptop"></i></button>
             </div>
+        </nav>
 
+        <div class="container-fluid g-0">
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav1" role="tabpanel" aria-labelledby="nav1-tab"
+                    tabindex="0">
+                    <div class="row g-0 ">
+                        <div class="image-container ">
+                            <img src="./img/premium_photo-1670249419932-a7027d9003f8.avif" alt="Descrição da Imagem"
+                                class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="col-12 headline" id="businessContainer">
+                            <!-- Conteúdo de Business -->
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav2" role="tabpanel" aria-labelledby="nav2-tab" tabindex="0">
+                    <div class="row g-0 ">
+                        <div class="image-container ">
+                            <img src="./img/entertainment.avif" alt="Descrição da Imagem" class="img-fluid"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="col-12 headline" id="entertainmentContainer">
+                            <!-- Conteúdo de Entertainment -->
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav3" role="tabpanel" aria-labelledby="nav3-tab" tabindex="0">
+                    <div class="row g-0 ">
+                        <div class="image-container ">
+                            <img src="./img/general.avif" alt="Descrição da Imagem" class="img-fluid"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="col-12 headline" id="generalContainer">
+                            <!-- Conteúdo de General -->
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav4" role="tabpanel" aria-labelledby="nav4-tab" tabindex="0">
+                    <div class="row g-0 ">
+                        <div class="image-container ">
+                            <img src="./img/health.avif" alt="Descrição da Imagem" class="img-fluid"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="col-12 headline" id="healthContainer">
+                            <!-- Conteúdo de Health -->
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav5" role="tabpanel" aria-labelledby="nav5-tab" tabindex="0">
+                    <div class="row g-0 ">
+                        <div class="image-container ">
+                            <img src="./img/science.avif" alt="Descrição da Imagem" class="img-fluid"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="col-12 headline" id="scienceContainer">
+                            <!-- Conteúdo de Science -->
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav6" role="tabpanel" aria-labelledby="nav6-tab" tabindex="0">
+                    <div class="row g-0 ">
+                        <div class="image-container ">
+                            <img src="./img/sports.avif" alt="Descrição da Imagem" class="img-fluid"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="col-12 headline" id="sportsContainer">
+                            <!-- Conteúdo de Sports -->
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav7" role="tabpanel" aria-labelledby="nav7-tab" tabindex="0">
+                    <div class="row g-0 ">
+                        <div class="image-container ">
+                            <img src="./img/tecnology.avif" alt="Descrição da Imagem" class="img-fluid"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="col-12 headline" id="technologyContainer">
+                            <!-- Conteúdo de Technology -->
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
 
 
-       
+
+
+
+
+
+        <!-- conteúdo api -->
+
+
+
+
+
+
+
 
 
 
@@ -40,6 +168,7 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script src="main.js"></script>
+
 
 </body>
 
