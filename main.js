@@ -19,7 +19,7 @@ function fetchNewsByCategory(category) {
        <div class="col-12  headline ">
           <div>
             <div class="autor ">
-              <p>${article.author}</p> <!-- Nome da fonte -->
+              <p class="autorname">${article.author}</p> <!-- Nome da fonte -->
               <p>${date}</p>
             </div>
             <h2 >
@@ -41,3 +41,6 @@ function fetchNewsByCategory(category) {
 // Chamar a função para cada categoria
 const categories = ['business', 'entertainment', 'general', 'health', 'science', 'sports', 'technology'];
 categories.forEach(category => fetchNewsByCategory(category));
+
+
+
