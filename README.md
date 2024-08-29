@@ -7,7 +7,7 @@
 
 # Projeto Pessoal - Fecth API News Hub- 13
 
-Este projeto é um site de portfólio pessoal desenvolvido com o objetivo de praticar o consumo de API utilizando o site [News API][(https://newsapi.org/). Nesse caso, utilizando o método fetch, fiz requisições para buscar notícias de diferentes categorias de diferentes fontes jornalísticas, criando um hub de informação.
+Este projeto é um site de portfólio pessoal desenvolvido com o objetivo de praticar o consumo de API utilizando o site [News API](https://newsapi.org/). Nesse caso, utilizando o método fetch, fiz requisições para buscar notícias de diferentes categorias de diferentes fontes jornalísticas, criando um hub de informação.
 
 ```IMPORTANTE: Minha chave de API no site News API é gratuita e, por isso, tenho número limitado de requisições diárias. Se as notícias não estiverem aparecendo, é porque essa cota já foi esgotada.```
 
