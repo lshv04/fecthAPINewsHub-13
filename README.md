@@ -9,7 +9,7 @@
 
 Este projeto é um site de portfólio pessoal desenvolvido com o objetivo de praticar o consumo de API utilizando o site [News API](https://newsapi.org/). Nesse caso, utilizando o método fetch, fiz requisições para buscar notícias de diferentes categorias de diferentes fontes jornalísticas, criando um hub de informação.
 
-```IMPORTANTE: Minha chave de API no site News API é gratuita e, por isso, tenho número limitado de requisições diárias. Se as notícias não estiverem aparecendo, é porque essa cota já foi esgotada.```
+```IMPORTANTE: O site utilizado não permite fazer requisições a partir de um domínio público para contas de desenvolvedor. Por isso, a versão hospedada no GitHub Pages não mostrará as notícias atualizadas.```
 
 O site foi desenvolvido de maneira simples e elegante, seguindo o padrão de outros sites de notícia. Utilizei Bootstrap e CSS normal para fazer pequenos ajustes a navegabilidade do usuário.
 
@@ -30,6 +30,10 @@ O site foi desenvolvido de maneira simples e elegante, seguindo o padrão de out
 
 
 
+
+
+
+https://github.com/user-attachments/assets/e03f5966-00d3-4adc-bd0f-b83d33fdee0c
 
 
 
