@@ -10,11 +10,13 @@ body {
     --color1: #d7e5d7;
     --color2: #fff;
     --color3: #0a0a0a;
-    --color4:#4c4c4c;
+    --color4: #4c4c4c;
 }
-.bord{
-    border:1px solid black;
+
+.bord {
+    border: 1px solid black;
 }
+
 .image-container {
     width: 60%;
     height: 350px;
@@ -35,7 +37,7 @@ body {
 }
 
 h2 {
-    padding: 0 3rem 3rem 3rem;
+    padding: 2rem;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
 }
@@ -129,13 +131,14 @@ p {
     gap: 1rem;
     font-size: 2rem;
 }
-footer{
-    
+
+footer {
+
     background-color: var(--color1);
     padding: 5rem;
 }
 
-.fut1{
+.fut1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -156,5 +159,10 @@ footer{
     .autorname {
         margin-left: 1rem;
         margin-right: 1rem;
+    }
+
+    .fixed-buttons {
+        flex-direction: row;
+
     }
 }
